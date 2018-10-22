@@ -4,7 +4,7 @@ import pprint
 import re
 my_dict = {'ip_addr': '10.1.1.1', 'vendor': 'Juniper', 'username': 'ak7610', 'password': 'pass'}
 #print(type(my_dict))
-print (my_dict['ip_addr'])
+print(my_dict['ip_addr'])
 if my_dict['vendor'] == 'Cisco':
     my_dict['Platform'] = 'ios'
 elif my_dict['vendor'] == 'Juniper':
